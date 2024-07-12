@@ -9,9 +9,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Input Elements</h1>
+	<form action="/action_page.php" method="post" target="_blank">
 	<div>
 		<lable for="name">Name</lable>
-		<input type="text" minlength="3" maxlength="50">
+		<input type="text" minlength="3" maxlength="50" required>
 	</div>
 	<br>
 
@@ -22,16 +23,17 @@
 	<br>
 
 	<div>
-		<lable for="color">color</lable>
+		<lable for="favcolor">color</lable>
 		<input type="color" >
 	</div>
 	<br>
 	<div>
-		<lable for="likeliness">likeliness</lable>
+		<lable for="likeliness">Age 1-50</lable>
 		<input type="range" minlength="1" maxlength="100">
 	</div>
 <br>
 	<button type="submit">SUBMIT</button>
+	</form>
 
 	
     <script type="text/javascript" src="./script.js">
